@@ -1,0 +1,15 @@
+<!-- Unidades de medidas
+ 
+ABSOLUTAS
+ -cm
+ -in (polegada)
+ -px (pixel = 1/90 in)
+
+ RELATIVAS
+ - em (relativo ao elemento pai)
+ - rem (relativo ao elemento root (padrão os textos tenham 16px) )
+ - % (sempre relativo ao pai)
+ - vw (viewport width)
+ _ vh (viewport height)
+
+ -->

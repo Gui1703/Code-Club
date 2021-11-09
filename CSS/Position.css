@@ -1,0 +1,14 @@
+<!-- 
+    POSITION
+        position: static (padrão) - Não aceita valores de top, bottom, right e left
+        position: fixed - Fixa o elemento na tela
+        position: sticky - Age como um adesivo, fixa o elemento só onde eu determinar
+        position: relative - Posição relativa a outro elemento ou a página
+        position: absolute - Posição absoluta(fixa) a algum elemento ou a página
+        
+        Propriedades:
+            - Top
+            - Bottom
+            - Left
+            - Right
+-->
