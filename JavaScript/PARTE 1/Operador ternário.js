@@ -17,6 +17,6 @@ console.log(umbrela) */
     const isNotBlocked = true
     const accountExist = true
 
-    const tranferOk = balance && isNotBlocked && accountExist ? 'TRANSFERÊNCIA REALIZADA' : 'TRANSFERÊNCIA NEGADA'
+    const transferOk = balance && isNotBlocked && accountExist ? 'TRANSFERÊNCIA REALIZADA' : 'TRANSFERÊNCIA NEGADA'
 
-    console.log(tranferOk)
+    console.log(transferOk)
