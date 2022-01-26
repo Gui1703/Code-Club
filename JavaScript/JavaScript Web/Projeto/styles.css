@@ -71,13 +71,9 @@ input {
     padding-left: 16px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
     margin-top: 6px;
-}
-
-input::placeholder {
     font-weight: bold;
     font-size: 16px;
     line-height: 18px;
-
 }
 
 button {
