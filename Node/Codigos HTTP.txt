@@ -1,0 +1,13 @@
+-2xx - Confirmação / Sucesso
+    -200 - Requisição realizada com sucesso
+    -201 - Criado - Requisição de criação realizada com sucesso
+
+-4xx - Erro do cliente ( Front-End )
+    -400 - Bad request
+    -401 - Unauthorized
+    -403 - Forbidden (Proibido)
+    -404 - Not Found (Não foi encontrado)
+
+-5xx - Erro no servidor ( Falha ao concluir solicitação )
+    -500 - Internal Server Error
+    -502 - Bad Gateway

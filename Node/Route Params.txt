@@ -1,0 +1,12 @@
+Route params = /user/1
+
+GET - http://api.com/movies/1
+DELETE - http://api.com/movies/1
+PUT - http://api.com/movies/1
+
+(
+    {
+        method: "GET",
+        url: "http://servidor.com/user/3
+    }
+)

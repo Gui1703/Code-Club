@@ -1,0 +1,10 @@
+Query params =?teste=1
+
+http://api.com/celulares?name=samsung&preco=2000
+
+(
+    {
+        method: "GET",
+        url: "http://servidor.com/user?name=rodolfo"
+    }
+)

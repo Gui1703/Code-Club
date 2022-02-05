@@ -1,0 +1,5 @@
+ - GET = Leitura
+ - POST = Criação
+ - PUT = atualização
+ - DELETE = Deletar
+ - PATCH = atualização parcial

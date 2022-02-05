@@ -1,0 +1,1 @@
+    - MIDDLEWARE => INTERCEPTADOR => Tem o poder de parar ou alterar dados da requisição
