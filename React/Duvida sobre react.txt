@@ -1,0 +1,10 @@
+NO REACT NOSSOS COMPONENTES SEMPRE SAO SANDUICHES
+
+EXEMPLO
+
+<Container> Pao
+    <h1>Recheio</h1>
+    <h1>Recheio</h1>
+    <h1>Recheio</h1>
+    <h1>Recheio</h1>
+</Container> Pao

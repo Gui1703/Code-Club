@@ -1,0 +1,1 @@
+JSX - É misturar HTML com JavaScript. Criar uma variável JS e importar com chaves dentro do HTML

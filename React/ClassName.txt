@@ -1,0 +1,1 @@
+No HTML normal, para declarar uma classe é a escrita "class", no React é "className"
