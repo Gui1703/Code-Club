@@ -1,0 +1,5 @@
+ Spread Operator ele esparrama os items dentro do meu array
+
+ Exemplo ( ... )
+
+     setUsers([ ... users, { id: Math.random(), name, age }]);
