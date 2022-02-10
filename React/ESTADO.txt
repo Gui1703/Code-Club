@@ -20,3 +20,15 @@ Toda vez que for trocar o valor de um estado precisa trocar o valor inteiro, sub
 
 useRef - Ele facilita com que a gente mapeie um item no nosso HTML, e meio que consigo peghar informacoes sobre ele
 Serve para criar referenciae consegue ter acesso ao elemento
+
+-------------------------------------------------------------------------------------------
+
+UseEffect Efeito Colateral - Sempre quando eu alterar alguma coisa UseEffect sera chamado
+
+ useEffect(() => {
+    UMA FUNCAO ANONIMA E UM ARRAY. O useEffect espera receber isso
+  }, [])
+
+  O useEffect e chamado quando
+  A minha aplicacao inicia ( a pagina carregou, useEffect e chamado, tudo o que for colocado dentro do useeffect )
+  Quando um estado que esta no array de dependencias do useEffect e alterado
