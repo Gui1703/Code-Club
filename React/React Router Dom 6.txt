@@ -1,0 +1,16 @@
+Switch => Routes
+useHistory => useNavigate
+history => navigate
+component => element -------- <Route path="/" element={<Home />} />
+exact => Não é mais utilizado
+
+
+Switch agora chama-se Routes.
+
+useHistory agora chama-se useNavigate
+
+history agora vamos chamar de navigate e sem a necessidade de colocar .push para navegar para a rota desejada.
+
+Nas nossas rotas(Route) agora não usamos a propriedade component, agora ela chama-se element.
+
+exact não é mais necessário nas rotas.
