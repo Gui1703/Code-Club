@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  user-select: none;
+}
+
+header {
+  margin: 32px 0 0 42px;
+}
+
+.link-header {
+  margin-right: 36px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.875px;
+  color: #17233d;
+  cursor: pointer;
+}
+
+.link-header:hover,
+.link-main:hover {
+  text-decoration: underline;
+}
+
+button {
+  background: #6fbf44;
+  color: #fff;
+  border: 1px solid #4cb538;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 124px;
+  height: 51px;
+  cursor: pointer;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+img {
+  display: inline-block;
+  margin-left: 121px;
+  margin-top: 194.2px;
+  width: 595.18px;
+  height: 500px;
+}
+
+section {
+  margin-bottom: 70px;
+}
+
+main {
+  display: inline-block;
+  margin-left: 96.83px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 82px;
+  letter-spacing: 0.596154px;
+  color: #161a49;
+  width: 582px;
+}
+
+p {
+  width: 493px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  color: #4b505a;
+  margin-top: 47px;
+  margin-bottom: 55px;
+}
+
+.link-main {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 1px;
+  color: #6fbf44;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  header {
+    margin-top: 23px;
+    margin-right: 25px;
+    text-align: end;
+  }
+
+  .link-header {
+    display: none;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+
+  main {
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 30px;
+    width: 278px;
+    text-align: center;
+    margin-top: 83px;
+    margin-bottom: 29px;
+  }
+
+  p {
+    width: 304px;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 26px;
+  }
+
+  .link-main {
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
