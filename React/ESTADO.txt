@@ -1,12 +1,12 @@
 ESTADO E UMA VARIAVEL
-A DIFERENCA DE UMA VARIAVEL DE ESTADO PARA UMA VARIAVEL ASSIM (LET, CONST) E QUE A VARIAVEL NORMAL QUANDO ALTERA O VALOR DELA ELE NAO RENDERIZA A DELA DE NOVO, JA OP ESTADO DO REACT, ELE RENDERIZA A TELA DENOVO
+A DIFERENCA DE UMA VARIAVEL DE ESTADO PARA UMA VARIAVEL ASSIM (LET, CONST) E QUE A VARIAVEL NORMAL QUANDO ALTERA O VALOR DELA ELE NAO RENDERIZA A TELA DE NOVO, JA OS ESTADO DO REACT, ELE RENDERIZA A TELA DENOVO
 
 REACT HOOKS - FERRAMENTAS AUXILIARES
 EXEMPLO
 const [ users, setUsers ] = useState()
 primeiro cria a variavel (users) e a segunda e uma funcao que vai atualizar essa variavel que declarou
 
-dentro do () do useState vai num valor inicial, para iniciar com nada e nao quebrar a aplicacao utiliza [] - array vazio
+dentro do () do useState vai um valor inicial, para iniciar com nada e nao quebrar a aplicacao utiliza [] - array vazio
 
 
 UM ESTADO no React é IMUTAVEL - ELE NAO MUDA
