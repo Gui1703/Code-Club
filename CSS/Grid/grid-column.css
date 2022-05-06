@@ -1,0 +1,7 @@
+/* Items */
+
+.item {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-column: 2/4;
+}

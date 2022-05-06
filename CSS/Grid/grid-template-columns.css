@@ -1,0 +1,13 @@
+/* Container */
+/* Ao aplicar display grid fax com que todos os itens ocupem todos os espaços vazios */
+/* grid-template-columns -> falo quantas colunas quero e qual o tamanho delas */
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px; /* Tamanho fixo */
+  grid-template-columns: 20% 20% 20%; /* 20% do tamanho da tela */
+  grid-template-columns: 1fr 1fr 1fr; /* 1, 2, 3 coluna vai ocupar 1 fração cada */
+  grid-template-columns: repeat(3, 1fr); /* Invés de escrever assim 1fr 1fr 1fr, coloco o repeat() */
+  grid-template-columns: minmax(200px, 1fr) 1fr 1fr; /* Primeira coluna vai ter o tamanho mínimo de 200px e o máximo de 1fr */
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto)); /* Ele vai definir quantas colunas eu tenho */
+}

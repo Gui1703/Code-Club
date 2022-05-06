@@ -1,0 +1,7 @@
+/* Container */
+
+.container {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-auto-rows: minmax(500px, auto);
+}

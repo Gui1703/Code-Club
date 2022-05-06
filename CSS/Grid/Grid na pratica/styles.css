@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background: black;
+  display: grid;
+
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 5fr 1fr;
+  grid-gap: 10px;
+}
+
+.space {
+  color: white;
+  font-size: 30px;
+}
+
+header {
+  background: blue;
+  grid-column: 1/4;
+}
+
+main {
+  background: red;
+  grid-column: 2/3;
+}
+
+aside {
+  background: green;
+}
+
+footer {
+  background: yellow;
+  grid-column: 1/4;
+}
+
+nav {
+  background: orange;
+  grid-row: 2/3;
+}

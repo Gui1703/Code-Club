@@ -1,0 +1,9 @@
+/* Container */
+
+/* Defini qual o gap entre as linhas ou colunas */
+
+.container{
+    grid-row-gap: 20px;
+    grid-column-gap: 50px;
+    grid-gap: 20px 10px; /* Primeiro valor aplica nas linhas e segundo valor e distancia em colunas */
+}
