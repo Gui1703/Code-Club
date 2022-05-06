@@ -1,0 +1,19 @@
+Banco de Dados
+
+Um banco de dados e uma coleção organizada de informações - ou dados - estruturados, normalmente armazenadas eletronicamente em um sistema de computador
+
+O que e SQL ?
+SQL significa "Structured Query Language", ou "Linguagem de Consulta Estruturada", em português. Resumidamente, é uma linguagem de programação para lidar com banco de dados relacional (baseado em tabelas). Foi criado para que vários desenvolvedores pudessem acessar e modificar dados de uma empresa simultaneamente, de maneira descomplicada e unificada
+
+SQL
+SELECT * from USERS WHERE id = "32
+
+Colocada um dado no banco de dados usando SQl
+INSERT INTO
+USERS ( ID, Email, Password, Name )
+VALUES ( '5', contato@rodolfomori.com, '123123', 'Rodolfo' )
+
+ORM
+ORM ou Object Relational Mapping é uma técnica de mapeamento objeto relacional que visa criar uma camada entre nossa aplicação e nosso banco de dados.
+
+Com isso, ao longo do tempo foram criados diversos frameworks ORM, que nos ajudam nas tarefas de persistência e recuperação de dados, nos dando mais produtividade em nossas tarefas diárias

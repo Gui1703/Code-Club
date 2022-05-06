@@ -1,0 +1,7 @@
+MVC
+
+Model - É responsável pela leitura e escrita de dados
+
+View - A camada de interação com o usuário. Ela apenas faz a exibição dos dados
+
+Controller - O responsável por receber todas as requisições do usuário. Controlando qual model usar e qual view será mostrado ao usuário

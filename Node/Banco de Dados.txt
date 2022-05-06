@@ -1,0 +1,16 @@
+Banco de Dados Relacional (SQL)
+Banco de dados relacionais como MySQL, PostgreSQL, Oracle e SQLite representam e armazenam dados em tabelas e linhas
+
+As bases de dados relacionais armazenam e fornecem acesso a pontos de dados que podem estar relacionados entre si
+
+Os sistemas de bancos de dados relacionais suportam a relação de varias tabelas entre si
+
+
+Banco de Dados Não Relacional (NOoQL)
+Os bancos de dados NoSQL são, basicamente, banco de dados que não são relacionais (SQL). O nome NoSQL já indica "Not Only SQL". As NoSQL databases não precisam, necessariamente, ser parecidas entre si. São classificadas assim justamente por serem diferentes das relacionais.
+
+O NoSQL também proporciona uma performace melhor para o gerenciamento de dados das organizações, pois não há necessidade de agrupar os dados em um esquema de tabelas para usar as informações.
+
+Em suma, a principal diferença entre os bancos de dados relacionais e NoSQL é que o segundo permite maior velocidade, flexibilidade e escalabilidade ao armazenar e acessar dados não estruturados.
+
+Alguns dos principais bancos NoSQL são, DYNAMODB, Regis e MongoDB.
